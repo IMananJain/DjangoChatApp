@@ -17,7 +17,9 @@ python manage.py createsuperuser
 
 # To Delete Super User
 python manage.py shell
+
 from django.contrib.auth.models import User
+
 User.objects.get(username="admin", is_superuser=True).delete()
 
 # To login as admin
