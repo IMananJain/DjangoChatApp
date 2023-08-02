@@ -31,7 +31,9 @@ Password: admin123
 
 # To delete chat messages 
 I have created delete_chat_messages.py in the directory room/management/commands
+
 Just type below command to delete all room messages
+
 python manage.py delete_chat_messages
 
 # Author
